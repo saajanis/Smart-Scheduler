@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Smart Scheduler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event">EventActivity</string>
+    <string name="title_activity_user_login">UserLogin</string>
+    <string name="title_activity_user_registration">UserRegistration</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+</resources>

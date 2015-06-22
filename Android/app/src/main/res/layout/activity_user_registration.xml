@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="75px">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip"
+        tools:context="com.zazulabs.apoorva.smart_scheduler.UserRegistration">
+
+        <!--First Name Label-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- First Name input text -->
+        <EditText android:id="@+id/FirstName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/>
+
+        <!--Last Name Label-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Last Name input text -->
+        <EditText android:id="@+id/LastName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/>
+
+        <!--UserName Label-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- User Name input text -->
+        <EditText android:id="@+id/UserName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/>
+
+        <!-- Email Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Email input text -->
+        <EditText android:id="@+id/UserEmail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/>
+
+        <!-- Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Password input text -->
+        <EditText android:id="@+id/UserPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:password="true"
+            android:singleLine="true"/>
+
+        <!-- Register button -->
+        <Button android:id="@+id/btnRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:onClick="initiateUserRegistration"/>
+
+        <!-- Login button -->
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:onClick="goToLoginPage"/>
+
+    </LinearLayout>
+
+</ScrollView>

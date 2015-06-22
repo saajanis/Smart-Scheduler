@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/libs/joda-time-2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8f79e353ef77da6710e1f10d34fc3698eaaacbca">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/joda-time-2.1-6d14b110fcc4f9602828699a1b3ecf0390cebb3e.jar" />
+    </item>
+    <item
+        jar="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/classes-b8f01a375858da0dbe75f7162771093ad25d254e.jar" />
+    </item>
+    <item
+        jar="/Users/Saajan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8cfd410c45f20f7668c678895ff1e30715350a16.jar" />
+    </item>
+    <item
+        jar="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/classes-bb6c9e5747a30200b2fae853ffc6307e3aeff539.jar" />
+    </item>
+    <item
+        jar="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-518a0760bcadcc54787c4c4404b957e849392116.jar" />
+    </item>
+    <item
+        jar="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/libs/json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="/Users/Saajan/AndroidStudioProjects/Smart-Scheduler/app/build/intermediates/pre-dexed/debug/json-simple-1.1.1-f0f581de6c244edc9606d9a569b9d9ee6bc80fbf.jar" />
+    </item>
+
+</items>

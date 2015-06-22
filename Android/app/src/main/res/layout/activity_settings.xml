@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="75px">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dip"
+        tools:context="com.zazulabs.apoorva.smart_scheduler.SettingsActivity">
+
+
+        <!--Start Time Pref Label-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Time Preference"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- Start Time Preference input text -->
+        <!-- <EditText android:id="@+id/startTimePreference"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/> -->
+        <TimePicker
+            android:id="@+id/startTimePreference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--End Time Preference Label-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="End Time Preference"
+            android:singleLine="true"
+            android:layout_marginBottom="5dip"/>
+
+        <!-- End Time Preference input text -->
+        <!---<EditText android:id="@+id/endTimePreference"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"/> -->
+        <TimePicker
+            android:id="@+id/endTimePreference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+        <!-- Submit button -->
+        <Button android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Preferences"
+            android:onClick="setUserPreferences"/>
+
+    </LinearLayout>
+
+</ScrollView>

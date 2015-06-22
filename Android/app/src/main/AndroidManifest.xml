@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zazulabs.apoorva.smart_scheduler" >
+
+    <!-- This permission is necessary in order for SmartCalendar to perform network access. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Network State Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreateEvent"
+            android:label="Create Meeting" >
+        </activity>
+        <activity
+            android:name=".MeetingDetails"
+            android:label="Meeting Details" >
+        </activity>
+        <activity
+            android:name=".MeetingInvite"
+            android:label="Meeting Invitation" >
+        </activity>
+        <activity
+            android:name=".TimeSlots"
+            android:label="Time Slots" >
+        </activity>
+        <activity
+            android:name=".EventActivity"
+            android:label="My Meetings" >
+        </activity>
+        <activity
+            android:name=".UserLogin"
+            android:label="User Login" >
+        </activity>
+        <activity
+            android:name=".UserRegistration"
+            android:label="User Registration" >
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+    </application>
+
+</manifest>
